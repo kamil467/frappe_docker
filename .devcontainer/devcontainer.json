@@ -42,7 +42,7 @@
   },
   "dockerComposeFile": "./docker-compose.yml",
   "service": "frappe",
-  "workspaceFolder": "${containerWorkspaceFolder}/development",
+  "workspaceFolder": "/workspace/development",
   "shutdownAction": "stopCompose",
   "mounts": [
     "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/frappe/.ssh,type=bind,consistency=cached"
